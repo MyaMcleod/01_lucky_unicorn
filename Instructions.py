@@ -10,7 +10,7 @@ def yes_no(question):
             return  response
 
         elif response == "no" or response == "n":
-            response = "no"
+            response = "No"
             return response
         else:
             print("Display the instructions!")
@@ -25,7 +25,7 @@ def instructions():
 
 played_before = yes_no ("Have you played "
                             " the game before?")
-if played_before == "no":
+if played_before == "no" or played_before == "n" or played_before == "No":
         instructions()
-
-print("Program Contuines")
+else:
+      print("Program Contuines")

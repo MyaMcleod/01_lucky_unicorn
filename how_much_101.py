@@ -11,5 +11,6 @@ while not valid:
             print("You have asked to play with ${}".format(response_1))
         else:
             print(error)
-    execpt ValueError:
+
+    except ValueError:
         print(error)
