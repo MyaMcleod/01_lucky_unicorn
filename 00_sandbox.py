@@ -1,9 +1,6 @@
-#ask user for number
-get_number = int(input("Choose a number!"))
+import random
 
-#Times by five
-times_number = get_number * 5
-
-#Print result
-print("{} times by five equals {}".format(get_number, times_number))
+for item in range(0, 20):
+    number = random.randint(0, 4)
+    print(number, end="\t")
 

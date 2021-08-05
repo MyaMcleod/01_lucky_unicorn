@@ -1,11 +1,11 @@
 import random
 
-token = ["Unicorn", "Donkey", "Horse", "Zebra"]
+token = ["Unicorn", "Horse", "Horse", "Horse", "Zebra", "Zebra", "Zebra", "Donkey", "Donkey", "Donkey", ]
 STARTING_BALANCE = 100
 
 balance = STARTING_BALANCE
 
-for item in range(0,101):
+for item in range(0,500):
     chosen = random.choice(token)
 
 
@@ -19,5 +19,5 @@ for item in range(0,101):
         balance -= 0.5
 
 print()
-print("Starting Balance: ${}".format(STARTING_BALANCE))
-print("Final Balance: ${}".format(balance))
+print("Starting Balance: ${:.2f}".format(STARTING_BALANCE))
+print("Final Balance: ${:.2f}".format(balance))
