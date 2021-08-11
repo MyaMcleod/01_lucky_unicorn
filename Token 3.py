@@ -23,7 +23,6 @@ for item in range(0, 10):
             chosen = "Horse"
         balance -= 0.5
 
-print("You got a {}. Your balance is "
+    print("You got a {}. Your balance is "
       "${:.2f}".format(chosen, balance))
-
 print()

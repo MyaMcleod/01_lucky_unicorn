@@ -4,7 +4,7 @@ tokens = ["Horse", "Horse", "Horse", "Zebra", "Zebra", "Zebra", "Unicorn", "Donk
 STARTING_BALANCE = 100
 balance = STARTING_BALANCE
 
-for item in range(0, 100):
+for item in range(0, 10):
     chosen_num = random.randint(0, 100)
 
 
