@@ -1,6 +1,11 @@
 # option
-options = ["Unicorn", "Zebra", "Donkey", "Horse"]
+def yes_no(question)
 
-for item in option:
-    print(item)
+def instructions()
 
+played_before = yes_no("Have you played the game before?"
+
+if played_before == "no":
+    instructions()
+
+print()

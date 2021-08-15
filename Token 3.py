@@ -7,7 +7,6 @@ balance = STARTING_BALANCE
 for item in range(0, 10):
     chosen_num = random.randint(1, 100)
 
-
     if 1 <= chosen_num <= 5:
         chosen = "Unicorn"
         balance += 4
@@ -23,6 +22,7 @@ for item in range(0, 10):
             chosen = "Horse"
         balance -= 0.5
 
-    print("You got a {}. Your balance is "
-      "${:.2f}".format(chosen, balance))
+    print("You got a {}. Your balance is ${:.2f}".format(chosen, balance))
 print()
+print("Starting balance: ${.:2f}".format(STARTING_BALANCE))
+print("Final balance: ${.:2f}".format(balance))
