@@ -31,7 +31,7 @@ def instructions():
 
 
 def num_check(question,low,high):
-    error = "Please enter a whole number between 1 and 10\n"
+    error = "Please enter a whole number between 1 and 10"
 
     valid = False
     while not valid:
@@ -77,13 +77,12 @@ if played_before == "no":
 print()
 
 how_much = num_check("How much would you like to play with?", 1,10)
-
+balance = how_much
 
 play_again = input("Press <ENTER> to play...").lower()
 while play_again == "":
     rounds_played += 1
     print("*** Rounds #{} ***".format(rounds_played))
-    balance -= 1
     chosen_num = random.randint(1, 100)
 
     if 1 <= chosen_num <= 5:
