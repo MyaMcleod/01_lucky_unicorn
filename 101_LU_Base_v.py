@@ -14,7 +14,7 @@ def yes_no(question):
             response = "no"
             return response
         else:
-            print("Display the instructions!")
+            print(instructions())
 
 
 def instructions():
